@@ -1,8 +1,0 @@
-- name: npminstall
-  workspaces:
-    - name: source
-      workspace: pipeline-workspace
-  taskRef:
-    name: npm
-  runAfter:
-    - clone
